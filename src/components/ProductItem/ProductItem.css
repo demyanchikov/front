@@ -1,0 +1,34 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.product {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid var(--tg-theme-button-color);
+    padding: 15px;
+    width: 170px;
+}
+
+.product .top .img {
+    width: 100%;
+    background: lightgray;
+    height: 100px;
+    margin: 0 auto;
+    background: var(--tg-theme-button-color);
+}
+
+.title, .description, .price{
+    padding: 3px 0;
+}
+
+.product .top .description {
+    font-size: 0.8em;
+}
+
+.add-btn {
+    width: 100%;
+    border-radius: 10px;
+}
+
